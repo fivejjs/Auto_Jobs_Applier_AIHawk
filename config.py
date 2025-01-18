@@ -19,4 +19,4 @@ JOB_MIN_APPLICATIONS = 1
 LLM_MODEL_TYPE = 'openai'
 LLM_MODEL = 'gpt-4o-mini'
 # Only required for OLLAMA models
-LLM_API_URL = ''
+LLM_API_URL = 'http://192.168.1.106:11434/'

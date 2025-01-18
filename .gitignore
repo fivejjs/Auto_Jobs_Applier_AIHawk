@@ -33,6 +33,7 @@ share/python-wheels/
 MANIFEST
 chrome_profile/*
 data_folder/output/*
+data_folder/*
 answers.json
 # PyInstaller
 # Usually these files are written by a python script from a template
@@ -123,6 +124,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# GitHub
+.github/
+
 # MacOS
 .DS_Store
 
@@ -162,3 +166,5 @@ venv.bak/
 mono_crash.*
 
 job_applications/
+/generated_cv
+data_folder/secrets.yaml

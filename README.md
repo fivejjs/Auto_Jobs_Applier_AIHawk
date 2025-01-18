@@ -52,7 +52,6 @@ In the digital age, the job search landscape has undergone a dramatic transforma
 ## Installation
 
 **Confirmed successful runs on the following:**
-
 - Operating Systems:
   - Windows 10
   - Ubuntu 22
@@ -94,7 +93,6 @@ In the digital age, the job search landscape has undergone a dramatic transforma
    ```
 
    or for Windows-based machines -
-
    ```bash
    .\virtual\Scripts\activate
    ```
@@ -164,7 +162,6 @@ Each section has specific fields to fill out:
     - **github**: URL to your GitHub profile, if applicable.
     - **linkedin**: URL to your LinkedIn profile, if applicable.
   - Example
-
   ```yaml
   personal_information:
     name: "Jane"
@@ -192,7 +189,6 @@ Each section has specific fields to fill out:
     - **exam**: A list of courses or subjects taken along with their respective grades.
 
   - Example:
-
   ```yaml
   education_details:
     - education_level: "Bachelor's Degree"
@@ -262,7 +258,6 @@ Each section has specific fields to fill out:
     - **description**: A brief explanation of the achievement and its significance.
 
   - Example:
-
   ```yaml
   achievements:
     - name: "Employee of the Month"
@@ -290,7 +285,6 @@ Each section has specific fields to fill out:
     - **proficiency**: Your level of proficiency (e.g., Native, Fluent, Intermediate).
 
   - Example:
-
   ```yaml
   languages:
     - language: "English"
@@ -305,7 +299,6 @@ Each section has specific fields to fill out:
     - **interest**: A list of interests or hobbies.
 
   - Example:
-
   ```yaml
   interests:
     - "Machine Learning"
@@ -320,7 +313,6 @@ Each section has specific fields to fill out:
     - **notice_period**: The amount of time required before you can start a new role (e.g., "2 weeks", "1 month").
 
   - Example:
-
   ```yaml
   availability:
     notice_period: "2 weeks"
@@ -331,7 +323,6 @@ Each section has specific fields to fill out:
     - **salary_range_usd**: The salary range you are expecting, expressed in USD.
 
   - Example:
-
   ```yaml
   salary_expectations:
     salary_range_usd: "80000 - 100000"
@@ -346,7 +337,6 @@ Each section has specific fields to fill out:
     - **ethnicity**: Your ethnicity.
 
   - Example:
-
   ```yaml
   self_identification:
     gender: "Female"
@@ -407,7 +397,6 @@ Each section has specific fields to fill out:
     - **willing_to_undergo_background_checks**: Whether you are willing to undergo background checks (Yes/No).
 
   - Example:
-
   ```yaml
   work_preferences:
     remote_work: "Yes"
@@ -496,7 +485,6 @@ openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded you
 yaml.scanner.ScannerError: while scanning a simple key
 
 **Solution:**
-
 - Copy example `config.yaml` and modify gradually
 - Ensure proper YAML indentation and spacing
 - Use a YAML validator tool

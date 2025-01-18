@@ -71,7 +71,7 @@ from src.utils.constants import (
     WORK_PREFERENCES,
 )
 from src.job import Job
-from src.logging import logger
+from src._logging import logger
 import config as cfg
 
 load_dotenv()

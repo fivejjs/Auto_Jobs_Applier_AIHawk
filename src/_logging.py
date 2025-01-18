@@ -1,7 +1,7 @@
-import logging.handlers
 import os
 import sys
 import logging
+import logging.handlers
 from loguru import logger
 from selenium.webdriver.remote.remote_connection import LOGGER as selenium_logger
 

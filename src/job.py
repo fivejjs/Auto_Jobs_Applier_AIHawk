@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from src.logging import logger
+from src._logging import logger
 
 @dataclass
 class Job:
@@ -13,6 +13,8 @@ class Job:
     recruiter_link: str = ""
     resume_path: str = ""
     cover_letter_path: str = ""
+    title: str = ""
+    pdf_path: str = ""
 
     def formatted_job_information(self):
         """
@@ -20,6 +22,7 @@ class Job:
         """
         logger.debug(f"Formatting job information for job: {self.role} at {self.company}")
         job_information = f"""
+        # Job Title
         # Job Description
         ## Job Information 
         - Position: {self.role}

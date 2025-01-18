@@ -168,3 +168,4 @@ mono_crash.*
 job_applications/
 /generated_cv
 data_folder/secrets.yaml
+**/secrets.yaml

@@ -18,7 +18,7 @@ Levenshtein==0.25.1
 loguru==0.7.2
 openai==1.37.1
 pdfminer.six==20221105
-pytest>=8.3.3
+# pytest>=8.3.3
 python-dotenv~=1.0.1
 PyYAML~=6.0.2
 regex==2024.7.24
@@ -29,3 +29,14 @@ pytest
 pytest-mock
 pytest-cov
 undetected-chromedriver==3.5.5
+pluggy
+iniconfig
+packaging
+coverage
+certifi
+sniffio
+urllib3
+idna
+httpcore
+h11
+pillow
